@@ -237,8 +237,8 @@ function ReadCookie() {
         $nobyda.notify("京东Cookie清除成功 !", "", '请手动关闭脚本内"DeleteCookie"选项')
         return
       }
-    } else if ($nobyda.read("CookieJD")) {
-      $nobyda.write("", "CookieJD")
+    } else if ($nobyda.read("CookieJD2")) {
+      $nobyda.write("", "CookieJD2")
       $nobyda.write("", "CookieJD2")
       $nobyda.notify("京东Cookie清除成功 !", "", '请手动关闭脚本内"DeleteCookie"选项')
       $nobyda.done()
@@ -276,9 +276,9 @@ function ReadCookie() {
     } else {
       $nobyda.notify("京东签到", "", "脚本终止, 未填写Cookie ‼️")
     }
-  } else if (Key || $nobyda.read("CookieJD")) {
+  } else if (Key || $nobyda.read("CookieJD2")) {
     add = DualKey || $nobyda.read("CookieJD2") ? true : false
-    KEY = Key ? Key : $nobyda.read("CookieJD")
+    KEY = Key ? Key : $nobyda.read("CookieJD2")
     all()
   } else {
     $nobyda.notify("京东签到", "", "脚本终止, 未获取Cookie ‼️")
@@ -2805,7 +2805,7 @@ function GetCookie() {
       var CV = $request.headers['Cookie']
       if (CV.match(/(pt_key=.+?pt_pin=|pt_pin=.+?pt_key=)/)) {
         var CookieValue = CV.match(/pt_key=.+?;/) + CV.match(/pt_pin=.+?;/)
-        var CK1 = $nobyda.read("CookieJD")
+        var CK1 = $nobyda.read("CookieJD2")
         var CK2 = $nobyda.read("CookieJD2")
         var AccountOne = CK1 ? CK1.match(/pt_pin=.+?;/) ? CK1.match(/pt_pin=(.+?);/)[1] : null : null
         var AccountTwo = CK2 ? CK2.match(/pt_pin=.+?;/) ? CK2.match(/pt_pin=(.+?);/)[1] : null : null
@@ -2813,7 +2813,7 @@ function GetCookie() {
         var DecodeName = decodeURIComponent(UserName)
         if (!AccountOne || UserName == AccountOne) {
           var CookieName = " [账号一] ";
-          var CookieKey = "CookieJD";
+          var CookieKey = "CookieJD2";
         } else if (!AccountTwo || UserName == AccountTwo) {
           var CookieName = " [账号二] ";
           var CookieKey = "CookieJD2";
@@ -2848,7 +2848,7 @@ function GetCookie() {
       $nobyda.notify("写入京东Cookie失败", "", "请检查匹配URL或配置内脚本类型 ‼️");
     }
   } catch (eor) {
-    $nobyda.write("", "CookieJD")
+    $nobyda.write("", "CookieJD2")
     $nobyda.write("", "CookieJD2")
     $nobyda.notify("写入京东Cookie失败", "", '已尝试清空历史Cookie, 请重试 ⚠️')
     console.log(JSON.stringify(eor) + "\n" + eor + "\n" + JSON.stringify($request.headers))
