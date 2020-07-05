@@ -98,6 +98,14 @@ function getSystemApps() {
       icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png', 'https://raw.githubusercontent.com/Orz-3/task/master/52pj.png']
     },
     {
+      id: 'blibee',
+      name: '便利蜂',
+      keys: ['blibee','blibee_deviceid','blibee_token','blibee_userid'],
+      author: '@zZPiglet',
+      repo: 'https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js',
+      icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Blibee.png', 'https://raw.githubusercontent.com/Orz-3/task/master/Blibee.png']
+    },
+    {
       id: 'JD',
       name: '京东',
       keys: ['CookieJD', 'CookieJD2'],
