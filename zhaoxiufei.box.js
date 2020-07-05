@@ -619,7 +619,7 @@ function printHtml(data, curapp = null, curview = 'app') {
         [v-cloak]{
           display: none
         }
-      </style>.
+      </style>
     </head>
     <body>
       <div id="app">
