@@ -30,11 +30,11 @@ function checkIn() {
     const request = {
       url: 'https://mall.meituan.com/api/c/mallcoin/checkIn/getCheckInMainView?app_tag=union&bizId=2&channel=1&poi=244&poiId=244&stockPois=244&tenantId=1&time=1594207002866&userId=111116212&utm_medium=iphone&utm_term=5.6.0&uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603',
       headers: {
-        "Cookie": cookie,
+        "Cookie": '_utm_campaign=Aimaicai_cBimaicai_cD100H0; _utm_content=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _utm_medium=iphone; _utm_source=AppStore; _utm_term=5.6.0; cityid=2; dpid=; latlng=40.02708%2C116.31237%2C1594207000817; latlon=40.02708%2C116.31237%2C1594207000784; network=wifi; token=1py8o-dU__HMxNYnTKqLit3zJSUAAAAAAgsAANwLRiD8sLJ-RVT1D3aSzEnzCmObixjui_ZFqADnaiPGmXSWPs2F8OY_gM4sVfHZiQ; uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _lxsdk_s=1732e202b42-34e-a0-d62%7C%7C42; _lx_utm=utm_term%3D5.6.0%26utm_medium%3Diphone%26utm_content%3D00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603%26utm_source%3DAppStore%26utm_campaign%3DAimaicai_cBimaicai_cD100H0; _lxsdk_unoinid=6093a1eeabac45cf854f8d211631705aa159274835250124603; _lxsdk=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _lxsdk_cuid=1732e202b40c8-0231aaf527eb8d-787f1d-3d10d-1732e202b40c8',
         "Host": "mall.meituan.com",
-        "Referer": "https://mall.meituan.com/checkin/home.html",
+        "Referer": "https://mall.meituan.com/checkin/home.html?page_source=user_center&userid=111116212&version_name=5.6.0&utm_term=5.6.0&bizId=2&app_tag=union&stockPois=244&xuuid=c32480b085754e1796bb202d1efb901a06f47e2c0bb85771e2&token=1py8o-dU__HMxNYnTKqLit3zJSUAAAAAAgsAANwLRiD8sLJ-RVT1D3aSzEnzCmObixjui_ZFqADnaiPGmXSWPs2F8OY_gM4sVfHZiQ&utm_medium=iphone&sourceApp=iphone&poi=244&ci=2&utm_content=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603&utm_source=AppStore&utm_campaign=Aimaicai_cBimaicai_cD100H0&uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603&language=zh_CN&__reqTraceID=841437D4-416E-4213-9FC3-37D693A17340",
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TitansX/11.26.11 KNB/1.0 iOS/13.3.1 imaicai/com.baobaoaichi.imaicai/5.6.0 imaicai/5.6.0 App/11g10/5.6.0 WKWebView EH/7.3.0 EHSkeleton/1",
-        "t": token
+        "t": '1py8o-dU__HMxNYnTKqLit3zJSUAAAAAAgsAANwLRiD8sLJ-RVT1D3aSzEnzCmObixjui_ZFqADnaiPGmXSWPs2F8OY_gM4sVfHZiQ'
       }
     }
     msg.checkIn = {};
