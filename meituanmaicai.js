@@ -44,7 +44,7 @@ function checkIn() {
           msg.checkIn.data = result.data.rewardValue;
         } else {
           msg.checkIn.status = false;
-          msg.checkIn.error = error;
+          msg.checkIn.error = "重复签到";
         }
       })
       resolve();
