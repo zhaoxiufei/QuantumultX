@@ -19,8 +19,10 @@ function getCookie() {
 
 }
 
-function doTask() {
-  checkIn().then(getBalance).then(notify)
+async function doTask() {
+  await checkIn();
+  await getBalance();
+  await notify()
 }
 
 function checkIn() {
