@@ -28,7 +28,7 @@ async function doTask() {
 function checkIn() {
   return new Promise(resolve => {
     const request = {
-      url: 'https://mall.meituan.com/api/c/mallcoin/checkIn/getCheckInMainView?app_tag=union&bizId=2&channel=1&poi=244&poiId=244&stockPois=244&tenantId=1&time=1594207002866&userId=111116212&utm_medium=iphone&utm_term=5.6.0&uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603',
+      url: 'https://mall.meituan.com/api/c/mallcoin/checkIn/getCheckInMainView?app_tag=union&bizId=2&channel=1&poi=295&poiId=295&stockPois=295&tenantId=1&time=1594207002866&userId=111116212&utm_medium=iphone&utm_term=5.6.0&uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603',
       headers: {
         "Cookie": '_utm_campaign=Aimaicai_cBimaicai_cD100H0; _utm_content=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _utm_medium=iphone; _utm_source=AppStore; _utm_term=5.6.0; cityid=2; dpid=; latlng=40.02708%2C116.31237%2C1594207000817; latlon=40.02708%2C116.31237%2C1594207000784; network=wifi; token=1py8o-dU__HMxNYnTKqLit3zJSUAAAAAAgsAANwLRiD8sLJ-RVT1D3aSzEnzCmObixjui_ZFqADnaiPGmXSWPs2F8OY_gM4sVfHZiQ; uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _lxsdk_s=1732e202b42-34e-a0-d62%7C%7C42; _lx_utm=utm_term%3D5.6.0%26utm_medium%3Diphone%26utm_content%3D00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603%26utm_source%3DAppStore%26utm_campaign%3DAimaicai_cBimaicai_cD100H0; _lxsdk_unoinid=6093a1eeabac45cf854f8d211631705aa159274835250124603; _lxsdk=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _lxsdk_cuid=1732e202b40c8-0231aaf527eb8d-787f1d-3d10d-1732e202b40c8',
         "Host": "mall.meituan.com",
