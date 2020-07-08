@@ -93,7 +93,7 @@ function notify() {
       } else {
         message += "签到金额:" + msg.checkIn.error;
       }
-      message = "\n";
+      message += "\n";
       if (msg.balance.status) {
         message += "总额:" + msg.balance.data;
       } else {
