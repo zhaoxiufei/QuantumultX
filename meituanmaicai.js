@@ -7,7 +7,7 @@ const token = 'wzyKpBaa-_ytszNBzzB38UUawJkGAAAA5goAANJc7ej5mox_nOofxbHwsx51iTqWI
 const cookie = '_lxsdk_s=172e5207556-425-b95-989%7C%7C11; latlng=40.02726%2C116.31219%2C1592982075256; latlon=40.02726%2C116.31219%2C1592982075257; network=wifi; _lx_utm=utm_term%3D5.6.0%26utm_medium%3Diphone%26utm_content%3D00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603%26utm_source%3DAppStore%26utm_campaign%3DAimaicai_cBimaicai_cD100H0; logan_custom_report=; logan_session_token=14wjryj1y96kw82e5j0e; _utm_campaign=Aimaicai_cBimaicai_cD100H0; _utm_content=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _utm_medium=iphone; _utm_source=AppStore; _utm_term=5.6.0; cityid=2; dpid=; token=wzyKpBaa-_ytszNBzzB38UUawJkGAAAA5goAANJc7ej5mox_nOofxbHwsx51iTqWIekcNGU4R5K2sKdm0J2XDiIMnPdtxoexeIcH_g; uuid=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _lxsdk_unoinid=6093a1eeabac45cf854f8d211631705aa159274835250124603; _lxsdk=00000000000006093A1EEABAC45CF854F8D211631705AA159274835250124603; _lxsdk_cuid=172d51e34acc8-08a816df24192f-5207046f-3d10d-172d51e34adc8'
 let msg = {};
 //获取cookie
-if ($tools.isRequest()) {
+if ($tools.isRequest) {
   getCookie();
   $tools.time();
   $tools.done();
