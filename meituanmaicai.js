@@ -71,7 +71,7 @@ function getBalance() {
         }
       }
       msg.balance = {};
-      $cmp.get(request, function (error, response, data) {
+      $tools.get(request, function (error, response, data) {
         const result = isJSON(data);
         if (result && result.code == 0) {
           msg.balance.status = true;
