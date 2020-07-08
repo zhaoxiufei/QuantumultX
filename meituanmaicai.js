@@ -9,11 +9,9 @@ let msg = {};
 //获取cookie
 if ($tools.isRequest) {
   getCookie();
-  $tools.time();
   $tools.done();
 } else {
   doTask()
-  $tools.time();
   $tools.done();
   //执行task
 }
@@ -103,6 +101,7 @@ function notify() {
         message += "总额:" + msg.balance.error;
       }
       $tools.notify(cookieName, cookieName, message)
+      $tools.time();
       resolve();
     } catch (e) {
       resolve();
