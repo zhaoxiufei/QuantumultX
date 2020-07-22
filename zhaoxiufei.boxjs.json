@@ -6,28 +6,17 @@
   "repo": "https://github.com/zhaoxiufei/QuantumultX",
   "apps": [
     {
-      "id": "Oclean_mini",
-      "name": "欧可林商城",
-      "keys": ["Oclean_mini"],
-      "author": "@zZPiglet",
-      "repo": "https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png", "https://raw.githubusercontent.com/Orz-3/task/master/52pj.png"]
-    },
-    {
-      "id": "blibee",
-      "name": "便利蜂",
-      "keys": ["blibee","blibee_deviceid","blibee_token","blibee_userid"],
-      "author": "@zZPiglet",
-      "repo": "https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Blibee.png", "https://raw.githubusercontent.com/Orz-3/task/master/Blibee.png"]
-    },
-    {
-      "id": "sy_cookie_dj",
+      "id": "wechat_finance_cookieKey",
       "name": "京东到家",
-      "keys": ["sy_cookie_dj"],
+      "keys": [
+        "wechat_finance_cookieKey"
+      ],
       "author": "@Sunert",
-      "repo": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jddj.png", "https://raw.githubusercontent.com/Orz-3/task/master/jddj.png"]
+      "repo": "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance_guess.js",
+      "icons": [
+        "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png",
+        "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"
+      ]
     }
   ]
 }
