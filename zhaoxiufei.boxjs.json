@@ -7,11 +7,11 @@
   "apps": [
     {
       "id": "wechat_finance_cookieKey",
-      "name": "京东到家",
+      "name": "腾讯微证券",
       "keys": [
         "wechat_finance_cookieKey"
       ],
-      "author": "@Sunert",
+      "author": "@baranwang",
       "repo": "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance_guess.js",
       "icons": [
         "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png",
