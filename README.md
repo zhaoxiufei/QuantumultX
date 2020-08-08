@@ -43,7 +43,7 @@
     103a6060b05e4a1487b80eff91bd5ec8 Feng325809
     c33a8e02f1d34754bf727b0302e9abfd f121511
     abb0b33ffbea43988f4fe6505a2ec51f huan
-    502ff98cf336442ca7db5e5dea634f2e 原野新之助  
+    eea976c304bc437da20c66bc587b848d shinchan
 ### boxjs
     水果互助
     103a6060b05e4a1487b80eff91bd5ec8 Feng325809
